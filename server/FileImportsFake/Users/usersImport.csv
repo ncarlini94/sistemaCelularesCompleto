@@ -1,0 +1,25 @@
+cuit;nombre;apellido;mail;usuarioSade;reparticion1;reparticion2;reparticion3;cargo;observacion;activo
+261;BAJA;DEFINITIVA;;;Departamento de Innovación y Desarrollo de Productos;;;EMPLEADO;;NO
+1;BAJA;DEFINITIVA;;;División de Proyectos Especiales;Proyectos Internacionales;;EMPLEADO;;NO
+20044278201;ANGEL;PER;;;Campañas Publicitarias;Investigación de Mercado;Estrategia Digital;EMPLEADO;;NO
+20289876058;JAVIER;SAL;;;Energías Renovables;Eficiencia Energética;Investigación Ambiental;EMPLEADO;;SI
+20451234987;JUAN;PEREZ;juan.perez@mail.com;jperez;Departamento de Innovación y Desarrollo de Productos;Unidad de Nuevos Productos;;GERENTE;;SI
+20358976145;MARIA;GOMEZ;maria.gomez@mail.com;mgomez;Departamento de Innovación y Desarrollo de Productos;Unidad de Nuevos Productos;;ANALISTA;;SI
+20254781639;CARLOS;LOPEZ;carlos.lopez@mail.com;clopez;Departamento de Innovación y Desarrollo de Productos;Unidad de Nuevos Productos;;COORDINADOR;;SI
+20145879632;ANA;TORRES;ana.torres@mail.com;atorres;Departamento de Innovación y Desarrollo de Productos;Unidad de Nuevos Productos;;ASISTENTE;;SI
+20369874512;LUIS;FERNANDEZ;luis.fernandez@mail.com;lfernandez;División de Proyectos Especiales;Proyectos Internacionales;;GERENTE;;SI
+20458976214;LAURA;MARTINEZ;laura.martinez@mail.com;lmartinez;División de Proyectos Especiales;Proyectos Internacionales;;ANALISTA;;SI
+20314798562;JORGE;RODRIGUEZ;jorge.rodriguez@mail.com;jrodriguez;División de Proyectos Especiales;Proyectos Internacionales;;COORDINADOR;;SI
+20478956123;SARA;GARCIA;sara.garcia@mail.com;sgarcia;División de Proyectos Especiales;Proyectos Internacionales;;ASISTENTE;;SI
+20254879631;DIEGO;MARTIN;diego.martin@mail.com;dmartin;Unidad de Seguridad de la Información;Equipo de Seguridad;;GERENTE;;SI
+20147895621;ELENA;HERRERA;elena.herrera@mail.com;eherrera;Unidad de Seguridad de la Información;Equipo de Seguridad;;ANALISTA;;SI
+20369874513;MIGUEL;DIAZ;miguel.diaz@mail.com;mdiaz;Unidad de Seguridad de la Información;Equipo de Seguridad;;COORDINADOR;;SI
+20458976215;ROSA;ALVAREZ;rosa.alvarez@mail.com;ralvarez;Unidad de Seguridad de la Información;Equipo de Seguridad;;ASISTENTE;;SI
+20478195632;PEDRO;SANCHEZ;pedro.sanchez@mail.com;psanchez;Área de Marketing Digital;Campañas Publicitarias;;GERENTE;;SI
+20314598765;VERONICA;CRUZ;veronica.cruz@mail.com;vcruz;Área de Marketing Digital;Campañas Publicitarias;;ANALISTA;;SI
+20478956124;RAUL;RAMIREZ;raul.ramirez@mail.com;rramirez;Área de Marketing Digital;Campañas Publicitarias;;COORDINADOR;;SI
+20147895623;PATRICIA;GONZALEZ;patricia.gonzalez@mail.com;pgonzalez;Área de Marketing Digital;Campañas Publicitarias;;ASISTENTE;;SI
+20251487963;LUISA;VEGA;luisa.vega@mail.com;lvega;Sección de Energía Sostenible;Energías Renovables;;GERENTE;;SI
+20314569874;JUANITA;NAVARRO;juanita.navarro@mail.com;jnavarro;Sección de Energía Sostenible;Energías Renovables;;ANALISTA;;SI
+20458976216;RICARDO;BLANCO;ricardo.blanco@mail.com;rblanco;Sección de Energía Sostenible;Energías Renovables;;COORDINADOR;;SI
+20214569874;LUCIA;RAMOS;lucia.ramos@mail.com;lramos;Sección de Energía Sostenible;Energías Renovables;;ASISTENTE;;SI

@@ -1,0 +1,53 @@
+.container{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.span{
+  margin-top: 2vh;
+  width: 18vh;
+  height: 5.2vh;
+}
+
+.input{
+  height: 5.2vh;
+}
+
+  .iconPhone{
+    width: 15vh;
+    height: 15vh;
+  }
+  
+  .arrowIcon{
+    width: 12vh;
+  }
+  
+  .input::placeholder{
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+
+  .input{
+    margin: 0.8vh 0;
+    font-size: 1.8vh;
+  }
+
+  .span{
+    margin-top: 0.8vh;
+    width: 12.6vh;
+    height: 5.4vh;
+    max-width: 15vh;
+    padding-left: 1vh;
+}
+
+.boxArrowIcon{
+  margin-bottom: 4vh;
+}
+
+  .arrowIcon{
+    width: 10vh;
+    margin: 2vh 0 0 2vh;
+  }
+
+}

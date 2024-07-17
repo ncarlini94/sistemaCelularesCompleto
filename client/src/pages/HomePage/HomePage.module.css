@@ -1,0 +1,90 @@
+.container {
+    color: white;
+    width: 92%;
+    border-radius: 2vh;
+    margin: 3vh auto 2vh auto;
+    padding: 2vh;
+  }
+
+  .card{
+    background: rgba(40, 40, 40, 0.4);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    margin: 0;
+  }
+
+  .box{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .graphicCompañia{
+    width: 60vh;
+    height: 70vh;
+    margin: 0;
+  }
+
+  .jurisdiccionBox{
+
+  }
+
+  .jurisdiccionTbody{
+    height: 65vh;
+    overflow-y: auto;
+  }
+
+  .jurisdiccionTbody::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+  .jurisdiccionTbodyy::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+  .jurisdiccionTbody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+  .jurisdiccion{
+    font-size: 3vh;
+  }
+
+
+  @media screen and (max-width:1000px) {
+
+    .container{
+      width: 99%;
+      padding: 0;
+    }
+
+    .card{
+      background: rgba(40, 40, 40, 0.4);
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+      margin: 0 0 0vh 0;
+    }
+
+    h5{
+      font-size: 2.6vh;
+    }
+
+  .graphicCompañia{
+    width: 36vh;
+    height: 36vh;
+    margin: 2vh auto 0 6vh;
+    max-width: 40vh;
+  }
+
+  .jurisdiccionGraphic{
+    width: 60vh;
+    height: 77vh;
+    margin: 0;
+  }
+  }

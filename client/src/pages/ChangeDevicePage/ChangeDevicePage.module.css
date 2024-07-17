@@ -1,0 +1,39 @@
+.container{
+  width: 80%;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 4vh;
+  padding: 3vh 3vh 8vh 3vh;
+}
+
+
+.containerCenter{
+  margin: 0 auto 0 0vh;
+}
+
+.stepsBox{
+  width: 80%;
+  margin: 2vh auto 0 auto;
+}
+
+.steps{
+  padding-bottom: 8vh;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+  .container{
+    width: 96%;
+    margin: 2vh auto 4vh auto;
+    padding: 1vh 1vh 3vh 1vh;
+  }
+
+  .containerCenter{
+    margin: 0;
+    padding: 0;
+  }
+
+
+}

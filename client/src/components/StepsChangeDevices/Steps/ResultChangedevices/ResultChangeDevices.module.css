@@ -1,0 +1,38 @@
+.span{
+  margin-top: 2vh;
+  width: 18vh;
+  height: 5.2vh;
+}
+
+.input{
+  height: 5.2vh;
+}
+
+.arrowIcon{
+    width: 10vh;
+  }
+
+  @media screen and (max-width:1000px) {
+
+    .input{
+      margin: 0.8vh 0;
+    }
+
+  
+    .span{
+      margin-top: 2vh;
+      height: 5.4vh;
+      max-width: 15vh;
+      padding-left: 1vh;
+  }
+  
+  .boxArrowIcon{
+    margin-bottom: 4vh;
+  }
+  
+    .arrowIcon{
+      width: 10vh;
+      margin: 2vh 0 0 2vh;
+    }
+  
+  }

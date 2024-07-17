@@ -1,0 +1,88 @@
+.container {
+  color: white;
+  width: auto;
+  height: auto;
+  border-radius: 2vh;
+  padding: 1vh;
+  margin: 2vh 6vh 4vh 6vh;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  font-size: 2.4vh;
+}
+
+  .btn{
+    width: 18vh;
+    height: 6vh;
+  }
+
+  .dateCell {
+    white-space: nowrap;
+}
+
+  .input {
+    margin: 0 auto 0 auto;
+    width: 60vh;
+    max-width: 35vh;
+  }
+
+  .input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
+  .header{
+    height: 2vh;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 8vh 0 0 0;
+    justify-content: center;
+  }
+
+  .list th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .row th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .header th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  .pages {
+    border-color: rgb(255, 255, 255);
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  .pagination li {
+    display: inline-block;
+    margin: 0 0.4vh;
+    padding: 0 2vh;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+  }
+
+  .pagination li:hover {
+    background-color: black;
+  }
+
+  .link {
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+  }

@@ -1,0 +1,184 @@
+.box{
+  display: flex;
+}
+
+.container {
+  color: white;
+  width: 88%;
+  border-radius: 2vh;
+  padding: 4vh 4vh 4vh 3vh;
+  margin: 3vh auto 4vh auto;
+}
+
+.boxTop{
+  margin-bottom: 3vh;
+}
+
+.secondaryContainer {
+  color: white;
+  width: 34%;
+  height: 42vh;
+  border-radius: 2vh;
+  padding: 2vh 5vh 4vh 5vh;
+  margin: 3vh 8vh 0 auto;
+}
+
+.secondaryContainer h4{
+    margin:0 0 1.4vh -1.8vh;
+}
+
+.progressBox{
+  margin-top: 1vh;
+}
+
+input{
+    margin: 2vh;
+}
+
+.select{
+  margin-top: 2vh;
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+  margin: 0.8vh 8vh 0 2.2vh;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+inset: 0;
+border: 2px solid #414141;
+border-radius: 50px;
+transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+box-shadow: 0 0 20px rgba(241, 9, 9, 0.8);
+border: 2px solid #f10909;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 1.4em;
+width: 1.4em;
+left: 0.2em;
+bottom: 0.2em;
+background-color: white;
+border-radius: inherit;
+transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.switch input:checked + .slider {
+box-shadow: 0 0 20px rgba(9, 241, 40, 0.8);
+border: 2px solid #11f109;
+}
+
+.switch input:checked + .slider:before {
+transform: translateX(1.5em);
+}
+
+
+/* Loading */
+
+.ldsring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.ldsring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.ldsring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+
+  .box{
+    display: inline;
+  }
+
+  .container {
+    color: white;
+    width: 97%;
+    border-radius: 2vh;
+    padding: 4vh 2vh 4vh 2vh;
+    margin: 1.4vh auto 0 auto;
+  }
+
+  .secondaryContainer {
+    color: white;
+    width: 97%;
+    height: auto;
+    border-radius: 2vh;
+    padding: 3vh 2vh 3vh 2vh;
+    margin: 1.4vh auto 5vh auto;
+  }
+
+  .boxTop{
+    margin: 0 0 3.4vh 0;
+  }
+
+  .btn{
+    width: 10vh;
+    padding: 0.6vh 0.5vh 0.6vh 0.5vh;
+  }
+
+  .switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 6vh;
+    height: 3.8vh;
+    margin: 0.8vh 0 0 0.8vh;
+  }
+
+
+.slider:before {
+  position: absolute;
+  content: "";
+  width: 2.2vh;
+  height: 3vh;
+  left: 1.1px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+}

@@ -1,0 +1,14 @@
+.box{
+    margin: 4vh 0 0 0;
+    max-height: 36vh;
+}
+
+.boxText{
+    padding: 0.8vh 0.4vh 0.4vh 1vh;
+    border: none;
+    border-radius: 0.8vh;
+}
+
+.text{
+    font-size: 2.8vh;
+}

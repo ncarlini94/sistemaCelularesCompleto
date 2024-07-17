@@ -1,0 +1,278 @@
+.Navbar{
+    padding-right: 0;
+}
+
+.logo{
+    width: 10vh;
+    padding-left: 4vh;
+    filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 0.5));
+}
+
+.boxUserExpand{
+    background: -webkit-linear-gradient(to right, rgb(42, 119, 253), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgb(42, 119, 253), rgba(37, 117, 252, 1));
+    color: white;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 6vh;
+    display: inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    max-width: 7.2vh;
+    -webkit-transition: max-width 1.8s;
+    transition: max-width 1.8s;
+    white-space: nowrap;
+}
+
+.boxUserExpand:hover {
+    max-width: 90vh;
+}
+
+.textUserExpand {
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    margin: 0 2vh 0 -1vh;
+  }
+
+  .btnUserExpand{
+    color: #fff;
+    text-shadow: 1px 1px 8px rgba(0, 78, 223, 0.5);
+    padding-bottom: 1.4vh;
+  }
+
+  .icon{
+    font-size: 3.4vh;
+    padding-right: 2vh;
+  }
+
+
+  .btnNavbar{
+    height: 5.4vh;
+    border: none;
+  }
+
+    .barNavbar{
+    max-width: 40vh;
+    border: none
+}
+
+.boxNavbar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    color: rgb(255, 255, 255);
+}
+
+.closeBtn{
+    margin-right: -2vh;
+    font-size: 4vh;
+}
+
+.btnPanel{
+    font-size: 2.4vh;
+}
+
+.adminPanel{
+    padding: 0;
+    height: auto;
+    width: 28vh
+}
+
+.btnLine{
+    position: relative;
+    color: rgba(228, 228, 228, 0.74);
+    font-size: 2.3vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 1vh;
+}
+
+.btnLine:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.2px;
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.btnLine:hover:before {
+    width: 100%;
+}
+
+.btnLine:before {
+    left: 50%;
+}
+
+.btnLine:hover:before {
+    left:0;
+}
+
+.btn{
+    color: rgba(228, 228, 228, 0.74);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.sesionBtn{
+    margin-left: 5.2vh;
+    width: 24vh;
+    height: 6vh;
+    padding: 0;
+}
+
+.logoutButtonContainer {
+    margin-top: auto;
+}
+
+.sesionBtn:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:1000px){
+
+    .navbarContainer{
+        width: 100%;
+        margin: 0;
+    }
+
+    h5{
+        user-select: none;
+    }
+
+    .logo{
+        width: 15vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .icon{
+        font-size: 3.6vh;
+        padding: 0vh;
+        margin: 0;
+      }
+
+     .btnUserExpand{
+        color: #fff;
+        text-shadow: 1px 1px 8px rgba(0, 78, 223, 0.5);
+        padding: 0 0 0 2vh;
+        margin: 0;
+      }
+
+    .boxUserExpand:hover {
+        max-width: 18vh;
+    }
+
+    .textUserExpand {
+        text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+        margin: 0;
+      }
+
+      
+    .barNavbar{
+    width: 26vh !important;
+    }
+
+    .boxNavbar{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnNavbar{
+        font-size: 3.8vh;
+        margin-right: 1vh;
+    }
+
+    .btnPanel{
+        height: 5.4vh;
+        font-size: 2.6vh;
+    }
+
+    .btnPanel{
+        font-size: 2.6vh;
+    }
+
+    .closeBtn{
+        margin-right: 0vh;
+        font-size: 2.6vh;
+    }
+
+    li{
+        list-style: none;
+    }
+
+
+    li:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    .adminPanel{
+        padding: 0;
+        height: auto;
+        margin: 0;
+        width: 19vh;
+        font-size: 1vh;
+    }
+
+    .btnLine{
+        font-size: 2vh;
+    }
+
+    .btnLine:hover:before {
+        width: 100%;
+    }
+
+
+    .btnLine:before {
+        left: 50%;
+    }
+
+
+    .btnLine:hover:before {
+        left:0;
+        transition: all .1s;
+    }
+
+
+    .btn{
+        color: rgba(228, 228, 228, 0.74);
+        height: 4.2vh;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+
+    .sesionBtn{
+        width: 100%;
+        height: 6vh;
+        margin: 0 0 1vh 0;
+        font-size: 2.8vh;
+    }
+
+    .sesionBtn:hover{
+        opacity: 0.8;
+    }
+
+
+    .logoutButtonContainer {
+        margin-top: auto;
+    }
+
+
+
+}

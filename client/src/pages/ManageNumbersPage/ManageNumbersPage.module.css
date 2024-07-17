@@ -1,0 +1,242 @@
+.containerOptions{
+  color: white;
+  width: 98%;
+  height: auto;
+  border-radius: 2vh;
+  margin: 1.2vh auto 1.4vh auto;
+  padding: 0 1vh 2vh 1vh;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  color: white;
+  width: 98%;
+  border-radius: 2vh;
+  margin: 1vh auto 1.8vh auto;
+  padding: 2vh 0.2vh 2vh 0.2vh;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+  width: 6.4vh;
+  height: 6.2vh;
+}
+
+.btnTrash{
+  margin-top: 2vh;
+}
+
+.activoIcon{
+  font-size: 3vh;
+}
+
+
+.input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.select{
+  margin-top: 2vh;
+}
+
+.table{
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 3vh 0 0 0;
+  justify-content: center;
+}
+
+.list th {
+text-align: center;
+vertical-align: middle;
+font-size: 2vh;
+}
+
+.row th {
+text-align: center;
+vertical-align: middle;
+}
+
+.header th {
+text-align: center;
+vertical-align: middle;
+}
+
+
+.pages {
+border-color: rgb(255, 255, 255);
+}
+
+li a {
+text-decoration: none;
+}
+
+.pagination li {
+display: inline-block;
+margin: 0 0.4vh;
+padding: 0 2vh;
+color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+}
+
+.pagination li:hover {
+background-color: black;
+}
+
+.link {
+text-decoration: none;
+border-radius: 2px;
+cursor: pointer;
+}
+
+.pagination a.active {
+background-color: #007bff;
+border: 1px solid #007bff;
+}
+
+@media screen and (max-width:1000px){
+  .container {
+    height: auto;
+    margin: 0 auto 3vh auto;
+    width: 99%;
+    padding: 0.4vh 0.8vh 1.4vh 0.8vh;
+  }
+
+  .containerOptions{
+    color: white;
+    width: 98%;
+    height: auto;
+    border-radius: 1vh;
+    margin: 0.8vh auto 0.8vh auto;
+    padding: 1vh 0 1.5vh 0;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .boxForm{
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .input{
+    height: 5.6vh;
+    font-size: 1.8vh;
+    margin: 0 0 1vh 0.8vh;
+  }
+
+  .select{
+    font-size: 1.8vh;
+    width: 45.6vh;
+    margin: 0 0 1vh 0;
+  }
+
+  .btn{
+    width: 4.8vh;
+    height: 4.8vh;
+    margin: 0;
+    padding: 0;
+    font-size: 2.2vh;
+  }
+
+  .btnTrash{
+    width: 16vh;
+    height: 4.4vh;
+    font-size: 2.2vh;
+    margin: 0 0 0 14.4vh;
+  }
+
+  .boxInput{
+    width: 46vh;
+    padding: 0;
+  }
+
+  .boxSelect{
+    width: 46vh;
+    margin: 0;
+    padding: 0 0 0 1vh;
+  }
+
+  .activoIcon{
+    font-size: 3vh;
+    padding: 0.6vh 0 0 0;
+  }
+
+  .icon{
+    font-size: 2vh;
+  }
+
+  .table{
+    width: 100%;
+    margin: 0 0 3vh 0;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .list th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.4vh;
+  }
+
+  .row th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .header th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 2vh 0 1vh 0;
+    justify-content: center;
+}
+
+
+  .pages {
+    border-color: rgb(255, 255, 255);
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  .pagination li {
+    display: inline-block;
+    margin: 0 0.3vh;
+    padding: 0.4vh 0.6vh;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: 1.8vh;
+  }
+
+  .pagination li:hover {
+    background-color: black;
+  }
+
+  .link {
+    text-decoration: none;
+    border-radius: 0.5px;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: #007bff;
+    border: 0.8px solid #007bff;
+  }
+}
